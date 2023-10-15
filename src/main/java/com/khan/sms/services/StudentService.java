@@ -13,4 +13,9 @@ public interface StudentService {
 	
 	Student saveStudent(Student student);
 	
+	//TO get the edit form data
+	Student getStudentById(Long id);
+	//TO update the data
+	Student updateStudent(Student student);
+	
 }
