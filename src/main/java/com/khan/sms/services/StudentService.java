@@ -18,4 +18,7 @@ public interface StudentService {
 	//TO update the data
 	Student updateStudent(Student student);
 	
+	//TO delete
+	void deleteStudentById(Long id);
+	
 }
